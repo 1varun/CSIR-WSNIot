@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">CSIR-CIMFR</string>
+    <string name="save_fail">Failed to save data!!</string>
+    <string name="save_done">Data Successfully Saved!!</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="back">Back to Main Menu</string>
+    <string name="get_live_data_now">Get LIVE Data Now!</string>
+    <string name="the_stored_data_will_appear_here">....The stored data will appear here....</string>
+    <string name="back_live">Main Menu</string>
+    <string name="date_and_time_appears_here">Date and Time appears here.</string>
+    <string name="save_this_data">Save this Screen!</string>
+    <string name="back_credits">BACK</string>
+    <string name="created_by">Created By:</string>
+    <string name="credits">Credits</string>
+    <string name="eie_jadavpur_university">EIE, Jadavpur University</string>
+    <string name="email_varun_prasad_outlook_com">Email: varun_prasad@outlook.com</string>
+    <string name="releasedate_19_06_17">ReleaseDate:19/06/17</string>
+    <string name="varun_prasad">Varun Prasad</string>
+    <string name="version_1_01">Version 1.01</string>
+    <string name="arduino_s_data">Wireless Monitoring System</string>
+    <string name="main_credits">Credits</string>
+    <string name="get_live_data">Get Live Data</string>
+    <string name="get_saved_data">Saved Screens</string>
+    <string name="exit">Exit</string>
+    <string name="dot">.</string>
+    <string name="enter_url_192_168">Enter URL: 192.168.</string>
+    <string name="connection_status">Connection Status</string>
+    <string name="refresh_button">Refresh Button</string>
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.varun.csir_trainee.saved_data">
+
+    <LinearLayout
+        android:id="@+id/layout_up_saved"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/layout_bottom_saved"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
+            android:backgroundTintMode="src_atop"
+            app:layout_constraintBottom_toTopOf="@+id/dataView"
+            app:layout_constraintTop_toTopOf="@+id/layout_up_saved" />
+
+        <ImageView
+            android:id="@+id/dataView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/saved_background"
+            android:contentDescription="@string/the_stored_data_will_appear_here"
+            app:layout_constraintBottom_toTopOf="@+id/layout_bottom_saved"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spinner" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_bottom_saved"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/saved_background"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <Button
+            android:id="@+id/back_button_saved"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/button_background"
+            android:onClick="backbuttonsaved"
+            android:text="@string/back"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            tools:ignore="ButtonStyle" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
