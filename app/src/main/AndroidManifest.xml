@@ -27,8 +27,7 @@
             android:screenOrientation="portrait" />
         <activity
             android:name=".live_data"
-            android:parentActivityName=".MainActivity"
-            android:screenOrientation="portrait" />
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".saved_data"
             android:parentActivityName=".MainActivity"

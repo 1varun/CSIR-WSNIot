@@ -9,8 +9,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    EditText url_f;
-    EditText url_l;
+    EditText url_f, url_l;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,20 +30,16 @@ public class MainActivity extends AppCompatActivity {
         }
         else{
             Toast.makeText(this, "Please Enter Proper URL.", Toast.LENGTH_SHORT).show();
-        }
-    }
+        }}
 
     public void get_saved_data(View view){
         Intent i = new Intent(this, saved_data.class);
-        startActivity(i);
-    }
+        startActivity(i);}
 
     public void credit(View view){
         Intent i = new Intent(this, credits.class);
-        startActivity(i);
-    }
+        startActivity(i);}
 
     public void exit(View view){
         finish();
-    }
-}
+    }}

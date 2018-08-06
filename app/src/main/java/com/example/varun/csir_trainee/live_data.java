@@ -67,15 +67,6 @@ public class live_data extends AppCompatActivity {
         mWebView.setScrollBarStyle(View.SCROLLBARS_INSIDE_OVERLAY);
         connection.setText("Connecting to: "+url);
         mWebView.loadUrl(url);
-        mWebView.setDownloadListener(new DownloadListener() {
-            @Override
-            public void onDownloadStart(String url, String userAgent, String contentDisposition, String mimetype, long contentLength) {
-                //download file using web browser
-                Intent i = new Intent(Intent.ACTION_VIEW);
-                i.setData(Uri.parse(url));
-                startActivity(i);
-            }
-        });
 
         ImageButton refresh = (ImageButton) findViewById(R.id.refresh);
         refresh.setOnClickListener(new View.OnClickListener() {
